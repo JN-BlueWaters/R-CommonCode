@@ -1,4 +1,4 @@
-html { font-family: 'Montserrat', sans-serif; }
+html { font-family: 'Capian', sans-serif; }
 
 /*! Header Style Overrides */
 h1, h2, h3, h4, h5, h6,
@@ -6,7 +6,7 @@ h1, h2, h3, h4, h5, h6,
   font-family: inherit;
   font-weight: bold;
   line-height: 1.1;
-  color: #003dff;
+  color: black;
 }
 h1, .h1 { font-size: 28px; }
 h2, .h2 { font-size: 24px; }
