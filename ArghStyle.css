@@ -1,0 +1,47 @@
+html { font-family: 'Montserrat', sans-serif; }
+
+/*! Header Style Overrides */
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: inherit;
+  font-weight: bold;
+  line-height: 1.1;
+  color: #003dff;
+}
+h1, .h1 { font-size: 28px; }
+h2, .h2 { font-size: 24px; }
+h3, .h3 { font-size: 20px; }
+h4, .h4 { font-size: 16px; }
+h5, .h5 { font-size: 14px; }
+h6, .h6 { font-size: 12px; }
+
+/*! Table Style Overrides */
+.table > thead > tr > th,
+.table > tbody > tr > th,
+.table > tfoot > tr > th,
+.table > thead > tr > td,
+.table > tbody > tr > td,
+.table > tfoot > tr > td { padding: 5px; vertical-align: middle; }
+
+.table-condensed > thead > tr > th,
+.table-condensed > tbody > tr > th,
+.table-condensed > tfoot > tr > th,
+.table-condensed > thead > tr > td,
+.table-condensed > tbody > tr > td,
+.table-condensed > tfoot > tr > td { padding: 1px 5px; }
+
+.table-bordered > thead > tr > th,
+.table-bordered > tbody > tr > th,
+.table-bordered > tfoot > tr > th,
+.table-bordered > thead > tr > td,
+.table-bordered > tbody > tr > td,
+.table-bordered > tfoot > tr > td { border: 1px solid #ddd; }
+
+.table-bordered > thead > tr > th,
+.table-bordered > thead > tr > td { border-bottom-width: 2px; }
+
+.table-striped > tbody > tr:nth-of-type(odd) { background-color: #d4d9dd; }
+
+.table-hover > tbody > tr:hover { background-color: #abbac7; }
+
+.smallfont {font-size: 10px; background-color: white;}
