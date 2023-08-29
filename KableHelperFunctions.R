@@ -49,11 +49,11 @@ kable_default <- function(df,
   return(kbl)
 }
 
-kable_PaintHeader <- function(kbl, .style='B2Z') {
+kable_PaintHeader <- function(kbl) {
   kbl %>%
     row_spec(row = 0, 
              bold = TRUE, 
-             background = '#003dff',
+             background = 'black',
              color = 'white',
              extra_css = 'border-bottom: 3px solid; border-color: black;')
 }
